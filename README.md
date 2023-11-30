@@ -1,4 +1,4 @@
-# <img src="assets/merlin_logo.png" style="width: 19.0%" align=center> Merlin
+# <img src="assets/merlin_logo.png" style="width: 8.0%" align=center> Merlin
 
 <h3><a href="">Merlin: Empowering Multimodal LLMs with Foresight Minds</a></h3>
 
