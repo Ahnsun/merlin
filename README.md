@@ -1,7 +1,7 @@
 <p align="center">
   <a href="#">
 <img src="./assets/merlin_logo.png" alt="Logo" width="130"></a>
-  <h4 align="center"><font color="#966661">Merlin</font>: Empowering Multimodal LLMs with Foresight Minds</h4>
+  <h1 align="center"><font color="#966661">Merlin</font></h1>
 </p>
 
 
