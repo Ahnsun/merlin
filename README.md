@@ -31,3 +31,11 @@ See the [LICENSE](./LICENSE), as well as our accompanying [Acceptable Use Policy
 ## Citation
 
 If you find our work useful in your research, please consider citing Merlin:
+```tex
+@article{yuen2023merlin,
+  author = {Yu, En and Zhao, Liang and Wei, Yana and Yang, Jinrong and Wu, Dongming and Kong, Lingyu and Wei, Haoran and Wang, Tiancai and Ge, Zheng and Zhang, Xiangyu and Tao, Wenbing},
+  title = {Merlin: Empowering Multimodal LLMs with Foresight Minds},
+  journal = {arXiv preprint arXiv:2312.00589},
+  year = {2023},
+}
+```
