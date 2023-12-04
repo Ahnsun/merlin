@@ -10,7 +10,7 @@
 [En Yu](https://scholar.google.com.hk/citations?user=rWCQMNgAAAAJ&hl=zh-CN), [Liang Zhao](), [Yana Wei](), [Jinrong Yang](https://yancie-yjr.github.io/), [Dongming Wu](), [Lingyu Kong](), [Haoran Wei](https://scholar.google.com/citations?user=J4naK0MAAAAJ&hl=en), [Tiancai Wang](), [Zheng Ge](https://joker316701882.github.io/), [Xiangyu Zhang](https://scholar.google.com/citations?user=yuB-cfoAAAAJ&hl=en), and [Wenbing Tao]()
 	
 <a href="https://ahnsun.github.io/merlin/"><img src="https://img.shields.io/badge/Project-Page-Green"></a>
-<a href=""><img src="https://img.shields.io/badge/Paper-PDF-orange"></a> 
+<a href="https://arxiv.org/pdf/2312.00589.pdf"><img src="https://img.shields.io/badge/Paper-PDF-orange"></a> 
 
 Merlin is a groundbreaking model capable of generating natural language responses that are intricately linked with object trajectories of multiple images. Merlin excels in predicting and reasoning about future events based on initial observations, showcasing an unprecedented capability in future prediction and reasoning. Merlin achieves SOTA performance on the established Future Reasoning Benchmark and mulitiple existing MLLM benchmark (MMbench and MMVet), which shows powerful multi-modal general ability and forsight minds.
 
