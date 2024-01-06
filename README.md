@@ -7,7 +7,7 @@
 
 <h3><a href="">Merlin: Empowering Multimodal LLMs with Foresight Minds</a></h3>
 
-[En Yu](https://scholar.google.com.hk/citations?user=rWCQMNgAAAAJ&hl=zh-CN), [Liang Zhao](), [Yana Wei](), [Jinrong Yang](https://yancie-yjr.github.io/), [Dongming Wu](), [Lingyu Kong](), [Haoran Wei](https://scholar.google.com/citations?user=J4naK0MAAAAJ&hl=en), [Tiancai Wang](), [Zheng Ge](https://joker316701882.github.io/), [Xiangyu Zhang](https://scholar.google.com/citations?user=yuB-cfoAAAAJ&hl=en), and [Wenbing Tao]()
+[En Yu](https://ahnsun.github.io/), [Liang Zhao](), [Yana Wei](), [Jinrong Yang](https://yancie-yjr.github.io/), [Dongming Wu](), [Lingyu Kong](), [Haoran Wei](https://scholar.google.com/citations?user=J4naK0MAAAAJ&hl=en), [Tiancai Wang](), [Zheng Ge](https://joker316701882.github.io/), [Xiangyu Zhang](https://scholar.google.com/citations?user=yuB-cfoAAAAJ&hl=en), and [Wenbing Tao]()
 	
 <a href="https://ahnsun.github.io/merlin/"><img src="https://img.shields.io/badge/Project-Page-Green"></a>
 <a href="https://arxiv.org/pdf/2312.00589.pdf"><img src="https://img.shields.io/badge/Paper-PDF-orange"></a> 
