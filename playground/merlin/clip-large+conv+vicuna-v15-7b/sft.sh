@@ -1,0 +1,37 @@
+# 4 machines
+torchrun --nnodes=1 --nproc_per_node=8 --master_port=25001 mmgpt/engine/train/train_flash_attn.py \
+  --conversation_datasets llava665k_refine+track_sft_v2 \
+  --model_name_or_path checkpoints/pretrain-clip-large+conv2+vicunav-15-7b-mix20m-v1-nogrit-trackv2 \
+  --projector conv \
+  --conv_stride 2 \
+  --image_size 448 \
+  --vision_tower /path/vit-large-patch14-448 \
+  --freeze_vision_tower True \
+  --freeze_projector False \
+  --freeze_lm_model False \
+  --bf16 True \
+  --output_dir checkpoints/pretrain-clip-large+conv2+vicunav-15-7b-mix20m-v1-nogrit-trackv2-sft-llava665k_refine+track_sft_v2-modalitygroup \
+  --num_train_epochs 1 \
+  --per_device_train_batch_size 8 \
+  --per_device_eval_batch_size 4 \
+  --gradient_accumulation_steps 1 \
+  --evaluation_strategy "no" \
+  --save_strategy "steps" \
+  --save_steps 1000 \
+  --save_total_limit 1 \
+  --learning_rate 4e-5 \
+  --adam_beta2 0.95 \
+  --adam_epsilon 1e-8 \
+  --weight_decay 0.05 \
+  --warmup_ratio 0.03 \
+  --lr_scheduler_type "cosine" \
+  --group_by_modality_length True \
+  --logging_steps 1 \
+  --tf32 True \
+  --fsdp "shard_grad_op auto_wrap" \
+  --fsdp_transformer_layer_cls_to_wrap 'LlamaDecoderLayer' \
+  --model_max_length 2048 \
+  --gradient_checkpointing True \
+  --dataloader_num_workers 4 \
+  --report_to none \
+  --image_aspect_ratio resize
