@@ -20,6 +20,7 @@ Merlin is a groundbreaking model capable of generating natural language response
 Code, model weights, and demo will be released soon.
 
 ## Release
+- [2024/07/01] 🔥🔥🔥Merlin is accepted by ECCV2024! We will open our Merlin-chat SFT data soon!
 - [2024/05/06] 🔥🔥🔥We release the source code and weights of Merlin, including training and eval codes.
 
 ## Contents
